@@ -7,7 +7,8 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Hello Vue!'
+      message: 'Hello Vue!',
+      image: 'immagine razzo.avif',
     }
   }
 }).mount('#text')
